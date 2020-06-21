@@ -3,16 +3,16 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
 final_string = ""
-row index = 0 
+row_index = 0 
 while row_index < src.count do 
-  element_index = 0
-  while element_index< src[row_index].count do
-    if += src[row_index][element_index]
-    final_string += src[row_index[element_index]
-  end
-  element_index += 1 
+  element_index = 0 
+  while element_index < src[row_index].count do 
+    if src[row_index][element_index.class] == string
+      final_string += scr[row_index][element_index] + " "
+    end 
+    element_index += 1 
   end 
   row_index += 1 
-end
+end 
 final_string
 end
